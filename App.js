@@ -8,7 +8,7 @@ const navigationMap = {
 
 const navigationConfig = {
   initialRouteName: 'Search',
-  defaultNavigationOptions: { title: 'Cerca un ristorante' },
+  defaultNavigationOptions: { title: 'Cerca un locale' },
 };
 const navigator = createStackNavigator(navigationMap, navigationConfig);
 

@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
   searchBar: {
     height: 50,
     borderRadius: 5,
+    marginBottom: 10,
     marginVertical: 15,
     marginHorizontal: 15,
     flexDirection: 'row',
