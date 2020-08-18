@@ -1,9 +1,11 @@
 import SearchScreen from './src/screens/SearchScreen';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
+import ResultsShowScreen from './src/screens/ResultsShowScreen';
 
 const navigationMap = {
   Search: SearchScreen,
+  ResultsShow: ResultsShowScreen,
 };
 
 const navigationConfig = {
